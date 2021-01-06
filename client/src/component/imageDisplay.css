@@ -1,0 +1,27 @@
+.profile{
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.img_src img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+}
+.img_contain{
+    margin: 10px;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.profile span{
+    margin: 10px;
+}
